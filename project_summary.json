@@ -1,0 +1,56 @@
+{
+  "project": {
+    "name": "LTI (Talent Tracking System)",
+    "description": "LTI is a comprehensive solution designed to streamline the process of tracking and managing talent within an organization. This system provides tools for managing candidate information, tracking application statuses, scheduling interviews, and generating reports.",
+    "features": [
+      "Candidate Management: Store and manage candidate information.",
+      "Application Tracking: Track the status of applications through various stages.",
+      "Interview Scheduling: Schedule and manage interviews with candidates.",
+      "Reporting: Generate reports on various metrics related to talent acquisition."
+    ],
+    "directory_structure": {
+      "backend": {
+        "src": {
+          "index.ts": "Entry point of the backend application.",
+          "database.ts": "Database configuration and connection setup.",
+          "controllers": {
+            "candidateController.ts": "Handles requests related to candidates."
+          },
+          "models": {
+            "candidateModel.ts": "Defines the schema for candidate data."
+          },
+          "routes": {
+            "candidateRoutes.ts": "Defines API endpoints for candidate-related operations."
+          }
+        }
+      },
+      "frontend": {
+        "src": {
+          "App.tsx": "Entry point of the frontend application.",
+          "components": {
+            "CandidateList.tsx": "Component for displaying a list of candidates."
+          }
+        }
+      }
+    },
+    "installation": [
+      "Clone the repository: git clone https://github.com/yourusername/LTI.git",
+      "Navigate to the project directory: cd LTI",
+      "Install dependencies: npm install",
+      "Initialize a git repository: git init",
+      "Add all files to the repository: git add .",
+      "Make the first commit: git commit -m 'Initial commit'"
+    ],
+    "usage": [
+      "To start the application, run the following command: npm start"
+    ],
+    "updating_readme": [
+      "Open the README.md file in a text editor.",
+      "Make the necessary changes.",
+      "Commit the changes to the repository: git add README.md",
+      "Commit the changes: git commit -m 'Update README with new directory structure and usage instructions'",
+      "Push the changes: git push"
+    ],
+    "license": "This project is licensed under the MIT License. See the LICENSE.md file for details."
+  }
+}
