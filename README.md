@@ -63,6 +63,13 @@ To install the project, follow these steps:
    npm install
    ```
 
+4. Initialize git and make the first commit:
+   ```sh
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
+
 ## Usage
 
 To start the application, run the following command:
