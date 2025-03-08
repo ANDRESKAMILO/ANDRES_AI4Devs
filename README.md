@@ -70,6 +70,13 @@ To install the project, follow these steps:
    git commit -m "Initial commit"
    ```
 
+5. Push the repository to GitHub:
+   ```sh
+   git remote add origin https://github.com/ANDRESKAMILO/ANDRES_AI4Devs.git
+   git branch -M main
+   git push -u origin main
+   ```
+
 ## Usage
 
 To start the application, run the following command:
